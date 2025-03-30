@@ -1,0 +1,13 @@
+{
+  "name": "simplescript",
+  "version": "1.0.0",
+  "description": "A French programming language parser and interpreter",
+  "main": "main.js",
+  "scripts": {
+    "start": "bun main.js",
+    "watch": "bun watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "module"
+}
