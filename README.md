@@ -1,12 +1,12 @@
 # SimpleScript
 
-A simple French programming language parser and interpreter.
+A simple French programming language lexer and parser - the interpreter is still to be implemented.
 
 **Status: work in progress - only the lexer and parser components have been implemented so far.**
 
 ## About The Project
 
-SimpleScript is a simple programming language parser and interpreter, written in TypeScript and running on Bun.
+SimpleScript is a French programming language lexer and parser written in TypeScript and running on Bun. The interpreter has not been implemented yet.
 
 Current version: 1.0.0.
 
