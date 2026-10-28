@@ -1,52 +1,63 @@
 # SimpleScript
 
-SimpleScript is a  simple programming language parser and interpreter. (Currently, only the lexer and parser components have been implemented.)
+A simple French programming language parser and interpreter.
 
-## Table of contents
-- [Technologies](#technologies-and-tools)
-- [Installation](#installation)
-- [Status](#status)
-  - [Features](#features)
-  - [To-do](#to-do)
-- [Contributing](#contributing)
-- [Licence](#licence)
+**Status: work in progress - only the lexer and parser components have been implemented so far.**
 
-## Technologies and tools
-- TypeScript
-- Bun (JavaScript runtime)
+## About The Project
 
-## Installation
-1. Clone the repository
-2. Install dependencies (if any)
-3. Run the project using Bun:
+SimpleScript is a simple programming language parser and interpreter, written in TypeScript and running on Bun.
 
-```bash
-bun start
-```
-
-To watch for changes during development:
-```bash
-bun watch
-```
-
-## Status
-Current version: 1.0.0
-
-The project is in early development. Only the lexer and parser components have been implemented so far.
+Current version: 1.0.0.
 
 ### Features
-- Lexer: Tokenizes the input code
-- Parser: Generates an Abstract Syntax Tree (AST) from tokens
+
+- Lexer: tokenizes the input code
+- Parser: generates an Abstract Syntax Tree (AST) from tokens
 
 ### To-do
+
 - Implement the interpreter
 - Add support for variables
 - Add support for control flow statements
 - Add support for functions
 
+### Built With
+
+- TypeScript
+- Bun (JavaScript runtime)
+
+## Getting Started
+
+### Prerequisites
+
+- [Bun](https://bun.sh/)
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies (if any)
+3. Run the project using Bun:
+
+```sh
+bun start
+```
+
+To watch for changes during development:
+
+```sh
+bun watch
+```
+
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate (if any).
 
-## Licence
-[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+## License
+
+No license file is present in this repository.
+
+## Contact
+
+Dyrits - https://github.com/Dyrits
